@@ -1,0 +1,15 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "exercise1 in-class",
+  "main": "index.js",
+  "scripts": {
+    "test": "inclass",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "inclass"
+  ],
+  "author": "Yi Jing 10419223",
+  "license": "MIT"
+}

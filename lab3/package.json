@@ -1,0 +1,12 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "Lab3 files",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js"
+  },
+  "author": "Yi Jing 10419223",
+  "license": "MIT"
+}

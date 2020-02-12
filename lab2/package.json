@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "cs546Lab2Work",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "lab2"
+  ],
+  "author": "Yi Jing 10419223",
+  "license": "MIT"
+}
