@@ -24,6 +24,8 @@ try {
     console.log(error)
 }
 
+const one = {"a":{"c":2,"b":1},"z":"test"};
+const two = {"z":"test","a":{"b":1,"c":2}}
 const first = {a: 2, b: 3};
 const second = {a: 2, b: 4};
 const third = {a: 2, b: 3};
@@ -34,6 +36,13 @@ const emp2 = {};
 const und = undefined
 const six = {a: 1, b: 2};
 const seven = {c:1, d:2};
+
+try {
+    console.log(uti.deepEquality(one,two))
+}catch (error){
+    console.log(error)
+}
+
 try {
     console.log("six compare to seven: ")
     console.log(uti.deepEquality(six,seven))
