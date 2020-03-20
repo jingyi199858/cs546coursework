@@ -5,7 +5,7 @@ const bands = data.bands;
 
 router.get('/:id', async (req, res) => {  
   try {   
-      const band = await bands.getBands(req.params.id);
+      const band = await bands.getBandByIDs(req.params.id);
       res.json(band);  
   } catch (e) {   
       res.status(404).json({ message: 'band not found' });  

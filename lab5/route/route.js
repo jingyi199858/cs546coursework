@@ -24,7 +24,7 @@ let education_of_mine = [
     {
         "schoolName": "Mclean High School",
         "degree": "High School",
-        "favoriteClass": "Percussion Bnad Trianing ",
+        "favoriteClass": "Percussion Band Trianing ",
         "favoriteMemory": "Homecoming party with my friends"
       },
       {

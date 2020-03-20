@@ -3,7 +3,7 @@ const bands = mongoCollections.bands;
 
 module.exports = {
 
-async  getBand(id){
+async  getBandByID(id){
     if (!id) throw 'You must provide an id to search for';
 
     const bandCollection = await bands();
@@ -55,7 +55,7 @@ async addBand(bandName, bandMembers, yearFormed, genres, recordLabel){
 
     const newId = insertInfo.insertedId;
 
-    const band = await this.getBand(newId);
+    const band = await this.getBandByID(newId);
     return band;
 },
 
@@ -88,7 +88,7 @@ async updateBand(bandId,bandName, bandMembers, yearFormed, genres, recordLabel){
       throw 'could not update band successfully';
     }
 
-    return await this.getBand(id);
+    return await this.getBandByID(id);
 }
 
 };
