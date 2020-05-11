@@ -43,6 +43,7 @@ async function remove(id){
     if (!id) throw 'You must provide an id to search for';
 
     const animalCollection = await animals();
+    console.log(typeof id)
     const deletionInfo = await animalCollection.removeOne({_id: id});
 
     if (deletionInfo.deletedCount === 0) {
