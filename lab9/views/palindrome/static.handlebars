@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-sm-12">
+    <form id="static-form" method="post">
+      <div class="form-group">
+        <label for="number1">Enter text to check</label>
+        <input class="form-control" id="number1" name="phrase" placeholder="Ready to enter" value="{{firstNumber}}">
+      </div>
+      <div class="form-group hidden" id="error-container">
+        <div class="alert alert-danger text-goes-here">
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+      <div class="form-group hidden" id="result-container">
+        <div class="form-group toggle" id="palindrome-container">
+                <div class="pal-group">
+                    <ul class="resultlist is-palindrome" id="attempts">
+                    </ul>
+                </div>
+            </div>
+      </div>
+    </form>
+  </div>
+</div>

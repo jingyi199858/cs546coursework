@@ -16,6 +16,7 @@ async function main() {
 	
 	await albums.addAlbum('Title2', author, ['jjjjjjjj','kkkkkkkkkkkk']);
 
+	console.log(id);
 	console.log('Done seeding database');
 
 	await db.serverConfig.close();

@@ -5,6 +5,11 @@ const main = async () => {
   const sasha = await animals.create('Sasha', "dog");
   console.log('Sasha the dog has been added, now she will blog!');
   console.log(sasha);
+  id = sasha._id;
+  console.log("hahahahha")
+  console.log(id);
+  console.log(typeof id);
+  console.log(await animals.get(id));
 
   const Lucy = await animals.create('Lucy', "dog");
   console.log(Lucy);

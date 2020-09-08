@@ -1,0 +1,19 @@
+<div>
+    <div class="col-sm-12">
+        <form id="login" method="POST" action="/login">
+             <div class="form-group">
+                <form id="login" action="/login" method="post">
+                    <label>Username:</label>
+                    <input type="text" name="username"  placeholder="Username">
+                    <label>Password:</label>
+                    <input type="password" name="password"  placeholder="Password">
+                    <button  type="submit">Submit</button>
+                </form>
+            </div>
+                {{#if status}}
+                {{else}}
+                    <p class="message">{{message}}</p>
+                {{/if}}
+        </form>
+    </div>
+</div>
